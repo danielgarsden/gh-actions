@@ -25,5 +25,5 @@ jobs:
           python -m pip install --upgrade pip
           ls
           python -m unittest discover
-          python main.py foo bar
+          python main.py "foo bar"
         working-directory: ./upper
