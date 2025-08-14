@@ -10,5 +10,5 @@ jobs:
   build:
     name: python-build
     runs-on: ubuntu-latest
-  steps:
-    - run: python --version
+    steps:
+      - run: python --version
