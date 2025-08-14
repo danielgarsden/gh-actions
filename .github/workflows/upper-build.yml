@@ -1,0 +1,14 @@
+name: upper-build
+
+on:
+  push:
+    paths:
+      - ".github/workflows/upper-build.yml"  
+  workflow_dispatch: # manual
+
+jobs:
+  build:
+    name: python-build
+    runs-on: ubuntu-latest
+  steps:
+    - run: python --version
