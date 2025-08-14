@@ -18,3 +18,5 @@ jobs:
       - run: dotnet --list-sdks
       - run: dotnet build
         working-directory: ./api
+      - run: dotnet test
+        working-directory: ./tests/api.Tests
