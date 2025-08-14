@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: python-build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - run: pwd && ls -al
       - uses: actions/checkout@v4
