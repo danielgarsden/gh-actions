@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\github-course\\gh-actions\\api\\api.csproj": {}
+    "c:\\Projects\\github-course\\gh-actions\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\github-course\\gh-actions\\api\\api.csproj": {
+    "c:\\Projects\\github-course\\gh-actions\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\github-course\\gh-actions\\api\\api.csproj",
+        "projectUniqueName": "c:\\Projects\\github-course\\gh-actions\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Projects\\github-course\\gh-actions\\api\\api.csproj",
+        "projectPath": "c:\\Projects\\github-course\\gh-actions\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Dan Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\github-course\\gh-actions\\api\\obj\\",
+        "outputPath": "c:\\Projects\\github-course\\gh-actions\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dan Dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
