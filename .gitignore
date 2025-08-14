@@ -1,0 +1,41 @@
+# Build Folders (you can keep bin/ and obj/ if you want to ignore those built files)
+/api/bin/
+/api/obj/
+
+/tests/api.Tests/bin/
+/tests/api.Tests/obj/
+
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# Microsoft Visual Studio cache/options directory
+.vs/
+
+# Dotnet Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
