@@ -30,7 +30,7 @@ jobs:
             ./tests/api.Tests/TestResults
       - uses: softprops/action-gh-release@v2
         with:
-          files: .api/bin/Release/net8.0*
+          files: .api/bin/Release/net8.0/*
           body: "Binaries for the API"
           tag_name: ${{ github.ref_name }}
         if: startsWith(github.ref, 'refs/tags/')
