@@ -4,6 +4,7 @@
 
 /tests/api.Tests/bin/
 /tests/api.Tests/obj/
+/tests/api.Tests/TestResults/
 
 # Visual Studio Code settings
 .vscode/
