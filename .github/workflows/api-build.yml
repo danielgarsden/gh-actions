@@ -10,10 +10,7 @@ on:
 jobs:
   build:
     name: build-dotnet-api
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -25,7 +22,11 @@ jobs:
         working-directory: ./tests/api.Tests
       - uses: actions/upload-artifact@v4
         with:
-          name: "api-build-artifact-${{ matrix.os }}"
+          name: "api-test-artifact"
           path: |
-            ./api/bin/Release/net8.0
             ./tests/api.Tests/TestResults
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: .api/bin/Release/net8.0*
+          body: "Binaries for the API"
+          tag_name: ${{ github.ref_name }}
